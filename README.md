@@ -1,6 +1,6 @@
 # AAAI'23 Workshop - A-ColViT: Real-time Interactive Colorization by Adaptive Vision Transformer
 
-An official code release of the paper [A-ColViT: Real-time Interactive Colorization by Adaptive Vision Transformer(https://dl.acm.org/doi/10.1145/3511808.3557225).
+An official code release of the paper [A-ColViT: Real-time Interactive Colorization by Adaptive Vision Transformer](https://dl.acm.org/doi/10.1145/3511808.3557225).
 
 BibTex:
 ```plain
