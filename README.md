@@ -2,20 +2,6 @@
 
 An official code release of the paper [A-ColViT: Real-time Interactive Colorization by Adaptive Vision Transformer](https://practical-dl.github.io/2023/long_paper/27/CameraReady/27.pdf).
 
-BibTex:
-```plain
-@article{lee2023colvit,
-  title={A-ColViT: Real-time Interactive Colorization by Adaptive Vision Transformer},
-  author={Lee, Gwanghan and Shin, Saebyeol and Ko, Donggeun and Jung, Jiyeon and Woo, Simon S},
-  year={2023}
-}
-```
-
-Plain text:
-<blockquote>
-Lee, Gwanghan, et al. "A-ColViT: Real-time Interactive Colorization by Adaptive Vision Transformer." (2023).
-</blockquote>
-
 ## Abstract
 <img src="./fig/overview.PNG"> 
 Recently, the vision transformer (ViT) has achieved remarkable performance in computer vision tasks and has been actively utilized in colorization. Specifically, for point-interactive image colorization, previous research that uses convolutional layers is limited for colorizing partially an image, which produces inconsistent colors in an image. Thus, vision transformer has been used to alleviate this problem by using multi-head self attention to propagate user hints to distant relevant areas in the image. However, despite the success of vision transformers in colorizing the image and selectively colorizing the regions with user propagation hints, heavy underlying ViT architecture and the large number of required parameters hinder active real-time user interaction for colorization applications. Thus, in this work, we propose a novel efficient ViT architecture for real-time interactive colorization, A-ColViT that adaptively prunes the layers of vision transformer for every input sample. This method flexibly allocates computational resources of input samples, effectively achieving actual acceleration. In addition, we demonstrate through extensive experiments on ImageNet-ctest10k, Oxford 102flower, and CUB-200 datasets that our method outperforms the state-of-the-art approach and achieves actual acceleration.
@@ -60,3 +46,21 @@ coming soon
 * [https://github.com/pmh9960/iColoriT](https://github.com/pmh9960/iColoriT)
 
 * [https://github.com/richzhang/colorization-pytorch](https://github.com/richzhang/colorization-pytorch)
+
+---
+
+If you use this repo, please cite our paper:
+
+BibTex:
+```plain
+@article{lee2023colvit,
+  title={A-ColViT: Real-time Interactive Colorization by Adaptive Vision Transformer},
+  author={Lee, Gwanghan and Shin, Saebyeol and Ko, Donggeun and Jung, Jiyeon and Woo, Simon S},
+  year={2023}
+}
+```
+
+Plain text:
+<blockquote>
+Lee, Gwanghan, et al. "A-ColViT: Real-time Interactive Colorization by Adaptive Vision Transformer." (2023).
+</blockquote>
